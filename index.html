@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Currency Converter</title>
+</head>
+
+<body>
+  <div class="site-container">
+    <header class="header">
+      <ul class="nav-list flex">
+        <li class="cross-icon">
+          <a href="#" onclick="cleanInput();">
+            <img src="./img/akar-icons_cross.png" alt="">
+          </a>
+        </li>
+        <li>
+          <h1 class="main-titel">
+            Currency Converter
+          </h1>
+        </li>
+        <li class="logo">
+          <img src="./img/WoW DUBAI logo-2 1.png" alt="">
+        </li>
+      </ul>
+    </header>
+    <section class="main">
+      <div class="select-container">
+        <!-- <select class="main-select" name="js-choice" id="selectCustom">
+          <option value="RUB">
+            <p>RUB</p>
+          </option>
+          <option value="AED">
+            <img src="./img/cryptocurrency_rub.png" alt="">
+            <p>AED</p>
+          </option>
+          <option value="USD">
+            <img src="./img/cryptocurrency_rub.png" alt="">
+            <p>USD</p>
+          </option>
+          <option value="EUR">
+            <img src="./img/cryptocurrency_rub.png" alt="">
+            <p>EUR</p>
+          </option>
+          <option value="CYN">
+            <img src="./img/cryptocurrency_rub.png" alt="">
+            <p>CYN</p>
+          </option>
+        </select> -->
+          <div class="select-container__titel flex">
+            <img src="./img/cryptocurrency_rub.png" alt="">
+            <p>
+              RUB - введите сумму в рублях
+            </p>
+          </div>
+        <form action="">
+          <input  id="input" class="main-input" type="number" placeholder="00.00" >
+        </form>
+      </div>
+    </section>
+    <section class="currency-input">
+      <form action="">
+        <div class="currency-input__wrapper">
+          <img src="./img/cryptocurrency_usd.png" alt="">
+          <p>AED</p>
+          <input id="input-result__AED" class="input-cur" type="number" disabled>
+        </div>
+        <div class="currency-input__wrapper">
+          <img src="./img/cryptocurrency_usd.png" alt="">
+          <p>USD</p>
+          <input id="input-result__USD" class="input-cur" type="number" disabled>
+        </div>
+        <div class="currency-input__wrapper">
+          <img src="./img/cryptocurrency_eur.png" alt="">
+          <p>EUR</p>
+          <input id="input-result__EUR" class="input-cur" type="number" disabled>
+        </div>
+       
+        <div class="currency-input__wrapper">
+          <img src="./img/ri_money-cny-circle-fill.png" alt="">
+          <p>CNY</p>
+          <input id="input-result__CNY" class="input-cur" type="number" disabled>
+        </div>
+        <div class="currency-input__wrapper">
+          <img src="./img/cryptocurrency_gbp.png" alt="">
+          <p>GBP</p>
+          <input id="input-result__GBP" class="input-cur" type="number" disabled>
+        </div>    
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="footer-top flex">
+        <a href="#">
+          <img src="./img/mdi_chevron-up.png" alt="">
+        </a>
+      </div>
+      <div class="footer-boton">
+        <ul class="flex footer-boton__list">
+          <li>
+            <a href="#">
+              <img src="./img/home.png" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/money-bag.png" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/air-ticet.png" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/tickets-alt.png" alt="">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
