@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+    }
+  
+  * * ::before,
+  * ::after {
+    box-sizing: inherit;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  body {
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 100%;
+    background-color: #424242;
+  }
+  
+  .list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    list-style-type: none;
+  }
+  .site-container {
+    width: 390px;
+    margin: 0 auto;
+    background-color: #CECECE;
+  }
+  .header {
+    width: 390px;
+    height: 90px;
+    background-color: #030349;
+    margin: 0 auto;
+    padding: 0 30px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+  }
+  .nav-list {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main-titel {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georama';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  .main {
+    width: 390px;
+    height: 125px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #030349 0%, #5050CA 90.38%);
+    border-radius: 0px 0px 20px 20px;
+    margin-bottom: 27px;
+  }
+  .select-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .select-container__titel {
+    align-items: center;
+    width: 330px;
+  }
+  .select-container__titel img {
+    margin-right: 20px;
+  }
+  .select-container__titel p {
+    font-family: 'Georama';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  .main-select {
+    width: 330px;
+    height: 50px;
+    margin: 0 auto;
+    outline: none;
+    border: none;
+    background: #4D42AC;
+    box-shadow: 15px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-family: 'Georama';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 0 10px;
+    margin-bottom: 7px;
+    cursor: pointer;
+  }
+  .main-input {
+    width: 330px;
+    height: 50px;
+    margin: 0 auto;
+    outline: none;
+    border: none;
+    background: #4D42AC;
+    box-shadow: 15px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-family: 'Georama';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 0 10px;
+    text-align: center;
+  }
+  .currency-input {
+    margin: 0 auto;
+  }
+  .currency-input__wrapper {
+    width: 353px;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    background-image: url(../img/card3.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding: 0 39px 0 20px;
+  }
+  .input-cur {
+    outline: none;
+    border: none;
+    text-align: center;
+    background-color: inherit;
+    font-family: 'Georama';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    max-width: 50%;
+  }
+  .currency-input__wrapper p {
+    font-family: 'Georama';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  .footer {
+    width: 390px;
+    height: 115px;
+    left: 0px;
+    top: 729px;
+    background: linear-gradient(180deg, #350486 21.88%, rgba(80, 39, 146, 0.79) 76.04%, rgba(82, 35, 160, 0.762711) 99.98%, rgba(83, 34, 163, 0.757826) 99.99%, rgba(84, 33, 167, 0.75) 100%);
+    border-radius: 20px 20px 0px 0px;
+    padding: 10px;
+  }
+  .footer-top {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .footer-boton__list {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
