@@ -229,6 +229,9 @@
     align-items: center;
     justify-content: center;
   }
+  .footer-link {
+    align-items: center;
+  }
   .footer-botom__wrpper p {
     font-style: normal;
     font-weight: 500;
