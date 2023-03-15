@@ -50,6 +50,7 @@
     width: 390px;
     margin: 0 auto;
     background-color: #CECECE;
+    margin-top: 50px;
   }
   .header {
     width: 390px;
@@ -86,6 +87,7 @@
     background: linear-gradient(180deg, #030349 0%, #5050CA 90.38%);
     border-radius: 0px 0px 20px 20px;
     margin-bottom: 27px;
+    padding: 40px;
   }
   .select-container {
     width: 100%;
